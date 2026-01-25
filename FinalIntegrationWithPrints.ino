@@ -263,7 +263,7 @@ void showPouringMsg() {
 
 void showDoneMsg() {
   clearLCD();
-  Serial1.print("  Na Zdarovia!  ");
+  Serial1.print("  !На здоровье  ");
   goToLine2();
   Serial1.print(" Take your drink ");
 }
